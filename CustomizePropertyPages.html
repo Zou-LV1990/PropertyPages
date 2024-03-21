@@ -1,0 +1,44 @@
+<HTML>
+<HEAD><META http-equiv=Content-Type content="text/html; charset=ISO-8859-1"></HEAD>
+<BODY background=grf/grayback.gif bgproperties="fixed">
+<H1>Customize Property Pages</H1>
+<EM><FONT SIZE=2>Last edited on 2016-07-17</FONT></EM>
+<A HREF="index.html" target="_blank"><img src="grf/home.png" title="Home" align=right border="0"></A>
+<P><BR>
+<FONT SIZE=4>
+<STRONG>Configuration Files</STRONG><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;
+Configuration files are located in:<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;
+C:\Program Files (x86)\National Instruments\LabVIEW 201x\resource\PropertyPages<BR><BR>
+&nbsp;&nbsp;
+Each .txt file is for a GObject, such as path ctrl, or while loop structure, ...&nbsp;&nbsp;The filename is the Class ID of the GObject. e.g. 11.txt is for the path ctrl.&nbsp;&nbsp;A list of config files is shown in the following image.&nbsp;&nbsp;Click the image to see the text version.<P>
+&nbsp;&nbsp;
+<A HREF="http://webspace.webring.com/people/og/gtoolbox/ConfigFiles.htm"><img src="./grf/ConfigFileList.png"></A><P><BR><BR>
+&nbsp;&nbsp;
+If the file doesn't exist, just create one yourself.&nbsp;&nbsp;It's a CSV file.&nbsp;&nbsp;Each line defines a page on the GObject properties dialog panel.&nbsp;&nbsp;The first column is the page id; the second column is the VI to be used on the page.&nbsp;&nbsp;Multiple VIs can be displayed on the same page arranged vertically.&nbsp;&nbsp;There are 33 pre-defined pages listed below:<P>
+&nbsp;&nbsp;
+<A HREF="http://webspace.webring.com/people/og/gtoolbox/Pages.htm"><img src="./grf/PropertyPages.png"></A>
+<P><BR><BR>
+<STRONG>Create plugin from template</STRONG><BR>
+&nbsp;&nbsp;
+Download template: <A HREF="http://webspace.webring.com/people/og/gtoolbox/dl/template.zip">simple template</A>
+<P><BR><BR>
+<STRONG>Display plugin VI</STRONG><BR>
+&nbsp;&nbsp;
+To display a plugin VI, simply add a line in the corresponding config file.&nbsp;&nbsp;Specify the page id and the plugin VI.&nbsp;&nbsp;If you can't find room on existing/visible pages, you CAN use any non-existing/invisible page.&nbsp;&nbsp;You can rename the page to whatever fit your plugin VI(see example#2:<A HREF="#Loops">Loops Property Page</A>).
+<P><BR><BR>
+<STRONG>Examples</STRONG><BR>
+&nbsp;&nbsp;- Property Page for decorations:<BR>
+&nbsp;&nbsp;<img src="./grf/Decor.png"><BR>
+&nbsp;&nbsp;
+<A HREF="http://webspace.webring.com/people/og/gtoolbox/dl/PropPage_Decor.zip">Decoration Property Page</A><BR><BR><BR>
+&nbsp;&nbsp;- Property Page for While Loop & For Loop:<BR>
+&nbsp;&nbsp;<img src="./grf/Loop1.png"> <img src="./grf/Loop2.png"><BR>
+&nbsp;&nbsp;
+<A NAME="Loops">
+<A HREF="http://webspace.webring.com/people/og/gtoolbox/dl/PropPage_Loops.zip">
+Loops Property Page</A></A>
+</FONT>
+</BODY>
+</HTML>
